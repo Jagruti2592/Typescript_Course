@@ -1,26 +1,37 @@
 // 
 /* Variable in Typescript */
 //number datatype -has integer and float values
-var num = 10; //value of number datatype can be changed later in code
-console.log(num);
-var pi = 3.14; //fixed value and has to initialize at the time of declaration.
-console.log(pi);
-var num1 = 10; //fixed value and has to initialize at the time of declaration.
-console.log(num1);
-//string datatype
-var str = "Hello";
-console.log(str);
-// const str1 = 'this is a string created  
-//               using back ticks ${str};
-//               this is another line';
-// console.log(str1);
-//boolean datatype
-var bool = true;
-console.log(bool);
-var isEligible = false;
-console.log(isEligible);
-var isEquals = true;
-console.log(isEquals);
-//array datatype
-var arr = [1, 2, 3];
-console.log(arr);
+// let num: number = 10; //value of number datatype can be changed later in code
+// console.log(num);
+// const pi=3.14; //fixed value and has to initialize at the time of declaration.
+// console.log(pi);
+// const num1: number = 10; //fixed value and has to initialize at the time of declaration.
+// console.log(num1);
+// //string datatype
+// const str: string = "Hello";
+// console.log(str);
+// // const str1 = 'this is a string created  
+// //               using back ticks ${str};
+// //               this is another line';
+// // console.log(str1);
+// //boolean datatype
+// let bool: boolean = true;
+// console.log(bool);
+// let isEligible: boolean = false;
+// console.log(isEligible);
+// let isEquals: boolean = true;
+// console.log(isEquals);
+// //array datatype
+// let arr: number[] = [1, 2, 3];
+// console.log(arr);
+// let isGreater = 10 > 5;
+// console.log(isGreater);
+function summation(num1, num2, isPrint) {
+    if (isPrint) {
+        console.log("Sum of number: " + (num1 + num2));
+    }
+    else
+        return 0;
+    console.log(isPrint);
+}
+summation(10, 20, true);
