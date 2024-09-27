@@ -49,3 +49,25 @@ function summation(num1:number,num2:number,isPrint:boolean){
 }
 
 summation(10,20,true);
+
+
+let person:object = {
+    name: "John",
+    age: 25,
+    gender:'male',
+}
+console.log("Person Object: " + person);
+
+//Arrays in Typescript
+
+let singlePerson = ['john',28,'male',1000];
+console.log("People array: " + singlePerson);
+
+
+let people: string [] = ['John','Doe','Smith'];
+console.log("People array: " + people);
+
+let birthYear: number[] = [1990,1991,1992,1993];
+console.log("Birth Year: " + birthYear);
+
+
